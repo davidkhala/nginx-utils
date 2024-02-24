@@ -2,7 +2,7 @@ version: '3.2'
 services:
 
   nginx:
-    image: nginx:1.13.11
+    image: nginx:latest
     ports:
       - 1443:1443
     volumes:
